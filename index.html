@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>technical bangla</title>
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>  
+    <!--Start Header Top Area-->
+    <div class="header-top bg_head">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <a class="a_color h3" href="#">Technical Bangla</a>
+                </div>
+                <div class="col-2">
+                    <span>Available 24/7 at</span><br>
+                    <b>+88 01811 210008</b>
+                </div>
+                <div class="col-4 pt-1 ">
+                    <div class="input-group b_redous">
+                        <input type="search" class="form-control b_redous" placeholder="Search" aria-label=""
+                            aria-describedby="" />
+                        <span class="input-group-text b_redous bg_search" id="">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-2 ">
+                    <div class="row ">
+                        <div class="col-6 ">
+                            <div class="text-center">
+                                <i class="fa-solid fa-gift"></i>
+                            </div>
+                            <div class="text-center">
+                                <a class="a_color" href="#">গিফট কার্ড</a>
+                            </div>
+                        </div>
+                        <div class="col-6 ">
+                            <div class="text-center">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> সাইন ইন </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel"> প্রবেশ করুন </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <form>
+                                            <div class="form-outline mb-4">
+                                                <label class="form-label" for="form1Example1"> ইমেইল ঠিকানা/ফোন নাম্বার * </label>
+                                                <input type="email" id="form1Example1" class="form-control" placeholder="ইমেইল ঠিকানা/ফোন নাম্বার *"/>
+                                            </div>
+                                            <div class="form-outline mb-4">
+                                                <label class="form-label" for="form1Example2"> পাসওয়ার্ড * </label>
+                                                <input type="password" id="form1Example2" class="form-control" placeholder="পাসওয়ার্ড * "/>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary btn-block"> সাইন ইন করুন </button>
+                                            <div class="row mb-4">
+                                                <div class="col d-flex justify-content-center">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                                                        <label class="form-check-label" for="form1Example3"> আমাকে মনে কর  </label>
+                                                    </div>
+                                              </div>
+                                              <div class="col">
+                                                    <a class="re-password" href="#!">পাসওয়ার্ড ভুলে গেছেন?</a>
+                                                </div>
+                                            </div>
+                                                
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Header Top Area-->
+
+    <!--Start Mainmenu Area-->
+    <div class="maninmenu-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <div class="category">
+                        <i class="fa-brands fa-twitter"></i>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ক্যাটাগরি সমূহ
+                            </button>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="#">শপ</a></li>
+                                <li><a class="dropdown-item" href="#">যানবাহন ভাড়া</a></li>
+                                <li><a class="dropdown-item" href="#">গ্রোসারী</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="maunmenu">
+                        <ul>
+                            <li><a href="#shop">শপ</a></li>
+                            <li><a href="#procuct">প্রডাক্ট ব্লগ</a></li>
+                            <li><a href="#page">পেইজ</a></li>
+                            <li><a href="#new">নিউ ইন</a></li>
+                            <li><a href="#trend">ট্রেন্ড কালেকশন</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="blank-space"></div>
+                </div>
+                <div class="col-3 justify-content-end">
+                    <div class="manimenu-right-boxed">
+                        <ul>
+                            <i class="fa-brands fa-hire-a-helper"></i>
+                            <li><a href="">সাহায্য</a></li>
+                            <span class="space-border"></span>
+                            <i class="fa-solid fa-user"></i>
+                            <li><a href="">EN/USD <i class="fa fa-angle-down"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Maninmenu Area-->
+
+    <!--Start Hero Area-->
+    <div class="hero-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero-heading text-center">
+                        <p>আমাদের সম্পর্কে জানুন................. <button class="hero-btn">আরও পড়ুন</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="hero-category-box text-center">
+                            <div class="category-title">
+                                <button class="category-btn">সকল ক্যাটাগরি</button>
+                            </div>
+                            <div class="category-space"></div>
+                            <div class="single-category">
+                                <div class="category-list">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <p>গ্রোসারী</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-user-doctor"></i>
+                                    <p>ফার্মেসি</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-shop"></i>
+                                    <p>পাইকারি রাজার</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-bus"></i>
+                                    <p>যানবাহন ভাড়া</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <p>বসাভাড়া</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-hotel"></i>
+                                    <p>হোটেল ভাড়া</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <p>গ্রোসারী</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <p>ফার্মেসি</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-hotel"></i>
+                                    <p>পাইকারি রাজার</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <p>যানবাহন ভাড়া</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-bus"></i>
+                                    <p>বসাভাড়া</p>
+                                </div>
+                                <div class="category-list">
+                                    <i class="fa-solid fa-hotel"></i>
+                                    <p>হোটেল ভাড়া</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="slider">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img  src="img/slide-1.jpg"
+                                        class="d-block slider-size w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slide-1.jpg"
+                                        class="d-block slider-size w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slide-1.jpg"
+                                        class="d-block slider-size w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="img/fatured-1.jpg" class="fatured-corner w-100" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img src="img/fatured-2.jpg" class="fatured-corner w-100" alt="">
+                        </div>
+                    </div>   
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="img/fatured-2.jpg" class="last-chaild fatured-corner w-100" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img src="img/fatured-1.jpg" class="last-chaild fatured-corner w-100" alt="">
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Hero Area-->
+    <!--Start Duscunt Area-->
+    <div class="discunt-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-area">
+                        <img src="img/cta-bixed.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Duscunt Area-->
+
+    <!--Start Team Area-->
+    <div class="our-team-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="single-team-boxed">
+                        <img class="rounded-circle shadow-4-strong" alt="avatar1" src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" />
+                        <img class="rounded-circle shadow-4-strong" alt="avatar1" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
+                        <img class="rounded-circle shadow-4-strong" alt="avatar1" src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" />
+                        <img class="rounded-circle shadow-4-strong" alt="avatar1" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
+                        <img class="rounded-circle shadow-4-strong" alt="avatar2" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Team Area-->
+
+    <!--Start Service area-->
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="service-title-1">
+                        <h2>Our Service</h2>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate <br> velit esse molestie consequat vel illum dolore .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-boxed">
+                        <div class="service-box-top">
+                            <img src="img/service-bg-1.png" alt="">
+                        </div>
+                        <div class="service-box-bottom text-center">
+                            <p>Duis autem vel eum iriure dolor in hendrerit in vulp utate velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros .</p>
+                            <a href="" class="service-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+                            <div class="service-box text-center">
+                                <h6>Mechanical Engineering</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-boxed">
+                        <div class="service-box-top">
+                            <img src="img/service-bg-2.png" alt="">
+                        </div>
+                        <div class="service-box-bottom text-center">
+                            <p>Duis autem vel eum iriure dolor in hendrerit in vulp utate velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros .</p>
+                            <a href="" class="service-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+                            <div class="service-box text-center">
+                                <h6>Civil and Architecture</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-boxed">
+                        <div class="service-box-top">
+                            <img src="img/service-bg-3.png" alt="">
+                        </div>
+                        <div class="service-box-bottom text-center">
+                            <p>Duis autem vel eum iriure dolor in hendrerit in vulp utate velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros .</p>
+                            <a href="" class="service-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+                            <div class="service-box text-center">
+                                <h6>Electrical / Electronics</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Servide are-->
+
+    <!--our-project-area start-->
+		<div class="section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="service-title-2">
+							<h2>Our Projects</h2>
+							<p>Duis autem vel eum iriure dolor in hendrerit in vulputate <br> velit esse molestie consequat vel illum dolore .</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="service-hover">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="single-project">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="project-thumb project-bg-1"></div>
+								</div>
+								<div class="col-md-6">
+									<div class="project-content">
+										<a href=""><h3>System Installation</h3></a>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore eu feugiat.</p>
+										<a href="#" class="readmore">View Project<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="margin-60"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="single-project">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="project-thumb project-bg-2"></div>
+								</div>
+								<div class="col-md-6">
+									<div class="project-content">
+										<a href=""><h3>System Installation</h3></a>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore eu feugiat.</p>
+										<a href="#" class="readmore">View Project<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="margin-60"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="single-project">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="project-thumb project-bg-3"></div>
+								</div>
+								<div class="col-md-6">
+									<div class="project-content">
+										<a href=""><h3>System Installation</h3></a>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore eu feugiat.</p>
+										<a href="#" class="readmore">View Project<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="margin-60"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="single-project">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="project-thumb project-bg-4"></div>
+								</div>
+								<div class="col-md-6">
+									<div class="project-content">
+										<a href=""><h3>System Installation</h3></a>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore eu feugiat.</p>
+										<a href="#" class="readmore">View Project<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="margin-60"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--our-project-area end-->
+
+    <!--Start Footer Area-->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer-list">
+                        <h2>Top Brands</h2>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="">Coco Lee</a></li>
+                                <li><a href="">Anna</a></li>
+                                <li><a href="">French Connection</a></li>
+                                <li><a href="">Jimmy Choo</a></li>
+                                <li><a href="">Chanel</a></li>
+                                <li><a href="">Collette</a></li>
+                                <li><a href="">View All</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-list">
+                        <h2>Further Info.</h2>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Customer Service</a></li>
+                                <li><a href="">Reward Program</a></li>
+                                <li><a href="">Shipping & Returns</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-list">
+                        <h2>Customer Service</h2>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="">Search Terms</a></li> 
+                                <li><a href="">Advanced Search</a></li>
+                                <li><a href="">Orders And Returns</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Theme FAQs</a></li>
+                                <li><a href="">Consultant</a></li>
+                                <li><a href="">Store Locations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-contact-list">
+                        <img src="img/logo-footer_269d57e0-e048-415c-b54a-5eb5a69e3964_200x.webp" alt="">
+                        <div class="footer-menu-contact">
+                            <div class="footer-icon">
+                                <i class="fa-solid fa-location-dot contact-ic"></i>
+                            </div>
+                            <a class="contact-info" href="">685 Market Street
+                                San Francisco, CA 94105, US</a>
+                        </div>
+                        <div class="footer-menu-contact">
+                            <div class="footer-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <a class="contact-info" href="">Call us at (415) 555-5555</a>
+                        </div>
+                        <div class="footer-menu-contact">
+                            <div class="footer-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <a class="contact-info" href="">Email: example@domain.com</a>
+                        </div>
+
+                        <div class="footer-social-list">
+                            <div class="single-social-icon">
+                                <a href=""><i class="fa-brands fa-facebook-f social-icon"></i></a>
+                                <a href=""><i class="fa-brands fa-square-instagram social-icon"></i></a>
+                                <a href=""><i class="fa-brands fa-pinterest social-icon"></i></a>
+                                <a href=""><i class="fa-brands fa-square-snapchat social-icon"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter social-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pyament-getway text-center">
+                    <img src="img/security-trust-footer.avif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Footer One-->
+
+    <!--Strat Footer Two-->
+    <div class="footer-area-last">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="footer-copyright">
+                        <p>&copy; 2022 Ella Demo. All Rights Reserved. Powered By Shopify. <br> Shopify Themes By HaloThemes.com </p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="footer-copyright-pyament">
+                        <img src="img/pyament-img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Footer Two-->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+</html>
